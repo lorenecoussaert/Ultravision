@@ -10,10 +10,10 @@ body {
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   color: #231f20;
+  text-align: justify;
 }
 /* style de paragraphes par défaut */
 p, li, textarea, label, input, select {
-  /* Default font size and line height */
 }
 
 
@@ -25,8 +25,16 @@ font-size: 88px;
 /*titre de section */
 h2 {
 font-size: 40px;
+text-align: center;
+font-weight: 900;
 }
 
+/* titre d'article */
+h3 {
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+}
 /**
 * ------
 * Layout
@@ -41,6 +49,7 @@ font-size: 40px;
 * Components
 * ----------
 */
+/* Composants de l'entête */
 .header-title {
   padding: 15px;
   background-color: #fcce00bd;
@@ -74,4 +83,49 @@ font-size: 40px;
 .header-stripe--blue {
   height: 8px;
   background-color: #6236ffbd;
+}
+
+/* Composants 1ère section It's a Computer... */
+
+.section--1 {
+  margin: 64px 119px 64px 106px;
+}
+
+.block {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+    }
+
+.column {
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+.column-background {
+  background-image: url(../img/bg-yellow.png);
+}
+
+.ordinateur-1 {
+  width: 487px;
+  height: 471px;
+  mix-blend-mode: darken;
+  margin-top: 40px;
+  margin-right: 10px;
+  margin-left: 180px;
+}
+
+.article-texte {
+  margin: 34px 31px 30px 31px;
+}
+
+.cta-jaune {
+  font-size: 20px;
+  color: #fcce00;
+  font-weight: bold;
+  text-align: center;
+  border: 4px solid;
+  padding: 10px 36px;
+  border-radius: 15px;
+  margin-left: 450px;
 }
