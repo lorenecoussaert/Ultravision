@@ -35,6 +35,13 @@ h3 {
   text-align: center;
   font-weight: bold;
 }
+
+/* titre blanc */
+h4 {
+  font-size: 32px;
+  font-weight: 900;
+  color: #ffffff;
+}
 /**
 * ------
 * Layout
@@ -111,6 +118,23 @@ h3 {
   flex-grow: 1;
 }
 
+.feature-title {
+  margin-left: 42px;
+}
+
+.feature-text {
+  font-size: 24px;
+  color: #ffffff;
+  margin-left: 42px;
+  margin-right: 184px;
+  margin-bottom: 58px;
+}
+
+.cta-blanc {
+  color: #ffffff;
+  margin-left: 42px;
+}
+
 /* Composants 1ère section We put it... */
 
 .background-jaune {
@@ -165,4 +189,49 @@ h3 {
 .cta-orange {
   color: #ff6b00;
   margin-left: 452px;
+}
+
+/* Composants 3ème section An arcade... */
+.background-red {
+  background-image: url(../img/bg-red.png);
+}
+
+.feature-1 {
+  width: 745px;
+  height: 576px;
+  mix-blend-mode: darken;
+  margin-top: 17px;
+  margin-right: 81px;
+  margin-left: 7px;
+  margin-bottom: 40px;
+}
+
+/* Composants 4ème section A color tv... */
+.background-purple {
+  background-image: url(../img/bg-violet.png);
+}
+
+.feature-2 {
+  width: 752px;
+  height: 582px;
+  mix-blend-mode: darken;
+  margin-top: 28px;
+  margin-right: 81px;
+  margin-left: 7px;
+  margin-bottom: 22px;
+}
+
+/* Composants 5ème section A computer... */
+.background-blue {
+  background-image: url(../img/bg-blue.png);
+}
+
+.feature-3 {
+  width: 753px;
+  height: 582px;
+  mix-blend-mode: darken;
+  margin-top: 35px;
+  margin-right: 81px;
+  margin-left: 7px;
+  margin-bottom: 14px;
 }
