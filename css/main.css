@@ -245,7 +245,7 @@ h4 {
   background-color: #231f20;
   padding-top: 1px;
 }
-.grille {
+.game-list {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 32px;
@@ -253,6 +253,51 @@ h4 {
   padding-right: 38px;
 }
 
+.game {
+  position: relative;
+}
+
+.game-content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 300ms;
+  text-align: center;
+  background-color: #231f20;
+  padding: 16px 20px 143px;
+}
+
+.game:hover .game-content {
+  opacity: 0.81;
+}
+
+.game-category {
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.game-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #fcce00;
+  margin-top: 8px;
+}
+
+.game-title-2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #ff6b00;
+  margin-top: 8px;
+}
+
+.game-description {
+  font-size: 16px;
+  color: #ffffff;
+  margin-top: 32px;
+}
 
 /* Composants 7ème section Contact... */
 .text-area {
@@ -262,4 +307,24 @@ h4 {
 
 .subtitle-contact {
   color: #ffffff;
+  margin-left: 214px;
+}
+
+.subtitle-message {
+  color: #ffffff;
+  margin-left: 0;
+}
+
+.textarea {
+  margin: 5px 64px 21px 214px;
+  padding: 8px 206px 7px 8px;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+.message-textarea {
+  margin: 0px 248px 597px 0px;
+  padding: 1px 10px 220px 10px;
+  border-radius: 8px;
+  background-color: #ffffff;
 }
